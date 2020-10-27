@@ -1,0 +1,17 @@
+hi|hello
+who|what|are|you
+basketball|best|team|championship
+hockey|team|best|championship
+favourite|like best|basketball|team
+favourite|like best|hockey|team
+canucks|head coach|who
+canucks|captain|who
+random|fact|basketball
+random|fact|hockey
+when|where|nba|founded|established
+when|where|nhl|founded|established
+best|basketball|team
+best|hockey|player|all|time
+name|popular|basketball|nba|player
+what|hockey|team|funny|interesting|name
+*null*
