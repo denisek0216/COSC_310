@@ -1,0 +1,2 @@
+Basketball,best,team,championship
+hockey,team,best
