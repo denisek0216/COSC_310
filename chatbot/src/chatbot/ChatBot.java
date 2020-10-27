@@ -67,7 +67,7 @@ public class ChatBot {
 				select = r;
 			}
 		}
-		if (max == 0)
+		if (max <=1) //if no matches are found
 			System.out.println("Sorry we dont understand you just yet! Feel free to ask another question!");
 		return select;
 	}
