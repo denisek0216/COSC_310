@@ -1,2 +1,4 @@
 basketball,best,team,what,which
 hockey,team,best,what,which
+who,best,basketball,player
+who,best,soccer,player,football

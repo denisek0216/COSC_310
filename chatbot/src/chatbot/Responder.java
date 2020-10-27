@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Responder{
 	private ArrayList<String> questions = new ArrayList<String>();
 	private ArrayList<String> responses = new ArrayList<String>();
-	
+	private String[] sentences = {"In my opinion ", "I believe it is ", "According to reliable sources(myself) it should be ", "Since you're asking me, it is "};
 	public Responder(String[] q, String[] a) {
 		for (String question: q) {
 			questions.add(question);
@@ -24,8 +24,9 @@ public class Responder{
 		int count = 0;
 		String[] match = q.split(" ");
 		for (String word: match) {
-			word = word.toLowerCase();
-			if (questions.contains(word)) {
+			String temp = word.toLowerCase();
+			temp = temp.replaceAll("[^a-zA-Z ]", "");
+			if (questions.contains(temp)) {
 				count++;
 			}
 		}
@@ -34,8 +35,10 @@ public class Responder{
 	
 	// Returns a string randomly selected from the array of responses.
 	public String respond() {
-		
 		int rand = (int)(Math.random()*responses.size());
-		return responses.get(rand);
+		String response = responses.get(rand);
+		rand = (int)(Math.random()*3);
+		String temp = sentences[rand] + response;
+		return temp;
 	}
 }

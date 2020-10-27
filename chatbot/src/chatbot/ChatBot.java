@@ -68,7 +68,7 @@ public class ChatBot {
 			}
 		}
 		if (max == 0)
-			System.out.println("Sorry we dont understand you just yet!");
+			System.out.println("Sorry we dont understand you just yet! Feel free to ask another question!");
 		return select;
 	}
 
