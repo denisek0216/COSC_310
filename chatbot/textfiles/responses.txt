@@ -1,6 +1,17 @@
-LA Lakers,Miami Heat,Toronto Raptors,Golden State
-Canucks,MapleLeafs
-Lebron James,Michael B. Jordon,Kobe Bryant
-Lionel Messi,Cristiano Ronaldo,Ronaldinho
-SO l'Emyrne
-Hello!
+hi|hello
+I'm a chatbot coded by group 12 as a project for COSC310.
+LA Lakers|Miami Heat|Toronto Raptors|Golden State
+Canucks|MapleLeafs
+I like the Toronto Raptors best!
+Canucks is my favourite.
+Travis Green
+Bo Horvat
+Since 1891, the standard basketball hoop stands 10 ft tall.|Basketball is the only major sport that originated strictly from the U.S.|At just 18.5 years old, Kobe Bryant was the youngest NBA player of all time.
+The Daur people have been playing a game similar to modern field hockey called beikou for about 1000 years.|The first organized and recorded game of ice hockey was in Montreal on 3 March 1875.|In 1879, the first organized team, the McGill University Hockey Club, was formed.
+The NBA was founded on June 6, 1946 in New York City.
+The NHL was founded on November 26, 1917 in Montreal.
+For 2019-2020, it's the Dallas Mavericks.
+According to the NHL, it's Wayne Gretzky.
+Michael Jordan|LeBron James|Kobe Bryant|Kareem Abdul-Jabbar|Larry Bird|Magic Johnson|Tim Duncan|Shaquille O'Neal|Wilt Chamberlin|Bill Russell
+Fussy Puckers|The Mighty Pucks|Zero Pucks Given|Zambronies|Shootin' Blanks|Mighty Drunks|Shut Your 5-hole|Tenths of a Second|Chicks with Sticks|Men with Wood
+I'm sorry. I don't understand.|Sorry, could you repeat yourself?|I don't get it.|I'm confused. Could you say that again?|I don't get it. What did you say?|What are you saying?
