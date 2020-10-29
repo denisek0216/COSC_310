@@ -40,12 +40,9 @@ public class Responder {
 		int rand = (int) (Math.random() * responses.size());
 		String response = responses.get(rand);
 		String temp;
-		if (responses.size() == 1)
-			temp = "According to a google search, it should be " + response;
-		else {
-			rand = (int) (Math.random() * 3);
-			temp = sentences[rand] + response;
-		}
+		rand = (int) (Math.random() * 3);
+		temp =  response;
+		
 		return temp;
 	}
 }
