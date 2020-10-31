@@ -28,8 +28,8 @@ public class ChatBot {
 
 			// initialize Responders
 			while (questions != null && responses != null) {
-				String[] q = questions.split(",");
-				String[] r = responses.split(",");
+				String[] q = questions.split("\\|");
+				String[] r = responses.split("\\|");
 
 				responders.add(new Responder(q, r));
 				questions = brQuestions.readLine();
@@ -67,7 +67,7 @@ public class ChatBot {
 				select = r;
 			}
 		}
-		if (max <=1) //if no matches are found
+		if (max ==0) //if no matches are found
 			System.out.println("Sorry we dont understand you just yet! Feel free to ask another question!");
 		return select;
 	}
@@ -79,13 +79,13 @@ public class ChatBot {
 		String[] temp = input.split(" ");
 		for (String s : temp) {
 			if (profanityFilter.contains(s)) { // cusswords filter
-				System.out.println("Please stop cussing.");
+				System.out.println("ChatBot: Please stop cussing.");
 				return;
 			}
 		}
 		Responder r = getResponder(input);
 		if (r != null)
-			System.out.println(r.respond());
+			System.out.println("ChatBot: "+ r.respond());
 
 	}
 
