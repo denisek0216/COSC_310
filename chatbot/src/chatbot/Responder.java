@@ -5,8 +5,6 @@ import java.util.ArrayList;
 public class Responder {
 	private ArrayList<String> questions = new ArrayList<String>();
 	private ArrayList<String> responses = new ArrayList<String>();
-	private String[] sentences = { "In my opinion ", "I believe it is ",
-			"According to reliable sources(myself) it should be ", "Since you're asking me, it is " };
 
 	public Responder(String[] q, String[] a) {
 		for (String question : q) {
@@ -40,12 +38,9 @@ public class Responder {
 		int rand = (int) (Math.random() * responses.size());
 		String response = responses.get(rand);
 		String temp;
-		if (responses.size() == 1)
-			temp = "According to a google search, it should be " + response;
-		else {
-			rand = (int) (Math.random() * 3);
-			temp = sentences[rand] + response;
-		}
+		rand = (int) (Math.random() * 3);
+		temp =  response;
+		
 		return temp;
 	}
 }
