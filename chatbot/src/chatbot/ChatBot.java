@@ -1,5 +1,3 @@
-package chatbot;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -23,13 +21,16 @@ public class ChatBot {
 			String questions = brQuestions.readLine();
 			String responses = brResponses.readLine();
 			String profanity = brProfanity.readLine();
+			
 
 			// initialize Responders
 			while (questions != null && responses != null) {
 				String[] q = questions.split("\\|");
 				String[] r = responses.split("\\|");
-
+				
 				responders.add(new Responder(q, r));
+				
+				// For next round
 				questions = brQuestions.readLine();
 				responses = brResponses.readLine();
 			}
